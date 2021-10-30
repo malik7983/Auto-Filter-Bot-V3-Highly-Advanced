@@ -335,7 +335,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data.startswith("checksub"):
         if AUTH_CHANNEL and not await is_subscribed(client, query):
-            await query.answer("I Like Your Smartness, But Don't Be Oversmart 😒",show_alert=True)
+            await query.answer("I Like Your Smartness, But Don't Be Oversmart 🤭",show_alert=True)
             return
         ident, file_id = query.data.split("#")
         files = (await get_file_details(file_id))[0]
@@ -364,7 +364,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url='http://t.me/EvaMariaBot?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/EvaMariaUpdates')
+            InlineKeyboardButton('⚙️Support Group⚙️', url='https://t.me/joinchat/8i064A8O6zYzZWY1')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
@@ -377,7 +377,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('Manuel Filter', callback_data='manuelfilter'),
+            InlineKeyboardButton('Manual Filter', callback_data='manuelfilter'),
             InlineKeyboardButton('Auto Filter', callback_data='autofilter')
             ],[
             InlineKeyboardButton('Connection', callback_data='coct'),
@@ -394,8 +394,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/EvaMariaUpdates'),
-            InlineKeyboardButton('♥️ Source', callback_data='source')
+            InlineKeyboardButton('⚙️Support Group⚙️', url='https://t.me/joinchat/8i064A8O6zYzZWY1'),
+            InlineKeyboardButton('Main Group↗️', url='https://t.me/joinchat/TuzhGj7SC871arDV')
             ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('🔐 Close', callback_data='close_data')
