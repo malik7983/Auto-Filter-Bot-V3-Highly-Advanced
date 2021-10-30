@@ -18,7 +18,7 @@ I'M A BOT FOR <a href='https://t.me/joinchat/TuzhGj7SC871arDV'>M4 MALLUMOVIES</a
 - <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and tessa will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and I will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
 1. I should have admin privillage.
