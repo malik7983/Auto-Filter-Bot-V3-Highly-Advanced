@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="assets/logo.jpg" alt="Eva Maria Logo">
+  <img src="https://telegra.ph/file/0cc0fd4ac1239327e8dfb.jpg" alt="Auto Filter Bot V3 Highly Advanced">
 </p>
 <h1 align="center">
-  <b>Eva Maria Bot</b>
+  <b>Auto Filter Bot V3 Highly Advanced</b>
 </h1>
 
 
